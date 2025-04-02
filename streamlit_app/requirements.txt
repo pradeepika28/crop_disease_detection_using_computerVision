@@ -5,4 +5,4 @@ numpy
 opencv-python-headless==4.7.0.72
 Pillow
 matplotlib
-Ultralytics
+ultralytics
