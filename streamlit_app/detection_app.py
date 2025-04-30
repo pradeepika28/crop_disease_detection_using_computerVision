@@ -9,7 +9,7 @@ import io
 import base64
 
 # Background Image Path
-background_image_path = r"C:\Users\User\Music\streamapp\streamlit_app\backgrounds\background1.png"
+background_image_path = "backgrounds/background1.png"
 
 def get_base64_of_image(image_path):
     with open(image_path, "rb") as image_file:
@@ -118,7 +118,7 @@ PRESCRIPTIONS = {
 }
 
 # Model Path
-YOLOV12_MODEL_PATH = r"C:\Users\User\Music\streamapp\streamlit_app\models\v12_ft.pt"
+YOLOV12_MODEL_PATH = "models/v12_ft.pt"
 
 @st.cache_resource
 def load_model(weights_path):
