@@ -9,7 +9,7 @@ import io
 import base64
 
 # Background Image Path
-background_image_path = "backgrounds/background1.png"
+background_image_path = "images/background1.png"
 
 def get_base64_of_image(image_path):
     with open(image_path, "rb") as image_file:
